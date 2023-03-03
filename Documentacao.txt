@@ -1,0 +1,24 @@
+História de Usuário.
+	Considere que você está desenvolvendo um sistema bancário. Este sistema permite que sejam criadas contar correntes. Cada conta tem o seu número, e seu saldo. Deve ser possível realizar saques, depósitos e transferências entre contas. Implemente a solução orientada a objetos usando encapsulamento, construtores e sobrecargas de métodos.
+
+Levantamento de Requisitos.
+	Requisitos funcionais.
+	- Permitir que sejam criadas contas Correntes.
+	- Cada conta terá um número (String).
+	- Cada conta terá seu saldo (double).
+	- Deve ser possível realizar saques.
+	- Deve ser possível realizar depósitos.	
+	- Deve ser possível realizar transferências entre contas.
+
+	Requisitos não funcionais.
+	- Implementar a solução orientada a objetos.
+	- Utilizar encapsulamento.
+	- Utilizar construtores.
+	- Utilizar sobrecargas (podendo ser de quaisquer métodos e/ou construtor).
+
+Classes:
+	Domínio:
+		- ContaCorrente.
+	
+	Serviço:
+		- GeradorDeNumeroDaConta.
