@@ -26,7 +26,7 @@ public class ContaCorrente {
     public double sacar(double valorDoSaque){
         boolean saqueInvalido = (valorDoSaque > this.saldo);
         if (saqueInvalido){
-            throw new IllegalArgumentException("O VALOR DO SAQUE NÃO PODE SER MAIOR DO QUE O SALDO ATUAL DA CONTA!!!");
+            throw new IllegalArgumentException("O   VALOR DO SAQUE NÃO PODE SER MAIOR DO QUE O SALDO ATUAL DA CONTA!!!");
         }
         this.saldo = saldo - valorDoSaque;
         return valorDoSaque;
